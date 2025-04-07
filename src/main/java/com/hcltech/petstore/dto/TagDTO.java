@@ -1,18 +1,15 @@
-package com.hcltech.petstore.model;
+package com.hcltech.petstore.dto;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Tag {
+public class TagDTO {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long tagId;
 
     private String tagName;
