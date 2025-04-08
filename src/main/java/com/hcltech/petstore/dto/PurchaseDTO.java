@@ -15,7 +15,7 @@ public class PurchaseDTO {
 
     private Long purchaseId;
 
-    private Customer customer;
+    private CustomerDTO customerDto;
 
     private PetDTO pet;
 
